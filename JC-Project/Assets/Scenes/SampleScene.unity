@@ -468,6 +468,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7842500069917707075, guid: 47526d40f3c91bd46b63ddddb7409f4b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d52c37c119041944a17c102a6f209df, type: 2}
+    - target: {fileID: -7625539850057299189, guid: 47526d40f3c91bd46b63ddddb7409f4b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8eca638c05021a94bb498cf3467c69a1, type: 2}
     - target: {fileID: -7555137588687522956, guid: 47526d40f3c91bd46b63ddddb7409f4b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -583,6 +593,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: AtreusModel
       objectReference: {fileID: 0}
+    - target: {fileID: 996911836999948195, guid: 47526d40f3c91bd46b63ddddb7409f4b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2774ec2c8632fb54ca7d2d357dca0df3, type: 2}
+    - target: {fileID: 1150173573889212829, guid: 47526d40f3c91bd46b63ddddb7409f4b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d52c37c119041944a17c102a6f209df, type: 2}
     - target: {fileID: 2080888149785775392, guid: 47526d40f3c91bd46b63ddddb7409f4b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -648,6 +668,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d39189f7a3965d94d9df1e12fbb39cfd, type: 2}
+    - target: {fileID: 5993766626489128064, guid: 47526d40f3c91bd46b63ddddb7409f4b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5a896497d1ddc1349b5ac61775dcae62, type: 2}
     - target: {fileID: 5995097768400568063, guid: 47526d40f3c91bd46b63ddddb7409f4b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

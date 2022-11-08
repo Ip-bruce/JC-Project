@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     private Vector3 velocity;
@@ -17,11 +18,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float sensitivity;
     [SerializeField] private float gravity = -9.81f; 
 
+    //Animator Variables
+     public Animator playerAnimator;
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
+        playerAnimator.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,6 +35,17 @@ public class PlayerMovement : MonoBehaviour
         playerMovementInput = new Vector3(Input.GetAxis("Horizontal"),0f,Input.GetAxis("Vertical"));
         MovePlayer();
         MovePlayerCamera();
+       
+       //ANIMATION
+        if(Input.GetKey(KeyCode.W))
+        {
+            Debug.Log("andando");
+            playerAnimator.SetBool("IsWalking",true);
+        }
+        else
+        {
+            playerAnimator.SetBool("IsWalking",false);
+        }
 
     }
 
@@ -63,5 +78,6 @@ public class PlayerMovement : MonoBehaviour
         playerCamera.transform.localRotation = Quaternion.Euler(xRot,0f,0f);
     }
 
+   
 
 }

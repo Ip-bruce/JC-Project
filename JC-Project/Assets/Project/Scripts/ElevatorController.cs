@@ -7,6 +7,7 @@ public class ElevatorController : MonoBehaviour
     bool isDown = true;
     bool isInside = false;
     public float vel = 50;
+    public float timer = 0.0f;
     public GameObject elevator;
     public Vector3 initialState;
     public Vector3 currentState;
@@ -30,8 +31,21 @@ public class ElevatorController : MonoBehaviour
             if(elevator.transform.position.y >= currentState.y)
             {
                 isDown = false;
+                Debug.Log("Macaco");
             }
+           
         }
+         if(elevator.transform.position.y >= finalState.y)
+            {
+                elevator.transform.position = elevator.transform.position;
+
+                timer += Time.deltaTime;
+                if(timer >= 3 )
+                {
+                   elevator.transform.position -= Vector3.up * vel * Time.deltaTime;
+                   timer = 0.0f;
+                }
+            }
         else
         {
             elevator.transform.position = elevator.transform.position;

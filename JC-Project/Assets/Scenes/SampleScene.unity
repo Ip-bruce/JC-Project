@@ -5103,7 +5103,7 @@ MonoBehaviour:
   elevator: {fileID: 863361637}
   initialState: {x: -2.4220114, y: -9.056406, z: -3.9950123}
   currentState: {x: -2.422011, y: -9.056406, z: -3.995012}
-  finalState: {x: -2.4220114, y: 13.12, z: -3.9950123}
+  finalState: {x: -2.4220114, y: 13.28, z: -3.9950123}
 --- !u!4 &1248384650
 Transform:
   m_ObjectHideFlags: 0
@@ -5137,8 +5137,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.88202, y: 22.862947, z: 10.580576}
-  m_Center: {x: -3.1960979, y: 2.1633139, z: -3.7980394}
+  m_Size: {x: 10.88202, y: 24.9014, z: 10.580576}
+  m_Center: {x: -3.1960979, y: 3.18254, z: -3.7980394}
 --- !u!1 &1249769597
 GameObject:
   m_ObjectHideFlags: 0

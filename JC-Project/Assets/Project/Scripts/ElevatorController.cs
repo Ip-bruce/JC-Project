@@ -43,7 +43,7 @@ public class ElevatorController : MonoBehaviour
                 if(timer >= 3 )
                 {
                    elevator.transform.position -= Vector3.up * vel * Time.deltaTime;
-                   timer = 0.0f;
+                   
                 }
             }
         else

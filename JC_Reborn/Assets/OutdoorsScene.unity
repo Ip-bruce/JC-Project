@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1473.8486, g: 1495.2012, b: 1890.8516, a: 1}
+  m_IndirectSpecularColor: {r: 1473.8096, g: 1495.1914, b: 1890.7793, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -411,7 +411,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483649
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -1810,7 +1810,7 @@ PrefabInstance:
     - target: {fileID: 8444205012500556734, guid: bbdac3f1c1cbe8c42a6770126147d794,
         type: 3}
       propertyPath: m_PathPosition
-      value: 155.1048
+      value: 309.7621
       objectReference: {fileID: 0}
     - target: {fileID: 8444205013370518767, guid: bbdac3f1c1cbe8c42a6770126147d794,
         type: 3}

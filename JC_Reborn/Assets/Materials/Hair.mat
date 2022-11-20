@@ -212,11 +212,11 @@ Material:
     - _SecondarySpecular: 1
     - _SecondarySpecularShift: 0.9
     - _Smoothness: 0.038
-    - _SmoothnessMax: 0.7
+    - _SmoothnessMax: 0.62
     - _SmoothnessMin: 0.3
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
-    - _Specular: 1
+    - _Specular: 0.118
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
@@ -239,7 +239,7 @@ Material:
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
     - _TransmissionEnable: 1
-    - _TransmissionRim: 0.2
+    - _TransmissionRim: 0.062
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -267,9 +267,9 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.38679248, g: 0.22555836, b: 0.16237986, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _TransmissionColor: {r: 1, g: 0.8666667, b: 0.627451, a: 1}
+    - _TransmissionColor: {r: 0.20754716, g: 0.08968965, b: 0, a: 1}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}

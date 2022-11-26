@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public  class CharacterController : MonoBehaviour
 {
     Rigidbody rb;
-    public float moveH;
-    public float moveV;
-    public float y;
+    public  float moveH;
+    public  float moveV;
+    public  float y;
     Vector3 movement;
-    public float moveSpeed;
+    public  float moveSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +31,8 @@ public class CharacterController : MonoBehaviour
         transform.Translate(moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
     }
 
-    public void GamePad()
-    {
+    // public void GamePad()
+    // {
 
-    }
+    // }
 }

@@ -8,7 +8,6 @@ public class CharacterAnimation : MonoBehaviour
    
       //bool isWalking = false;
      Animator animator;
-     float Horizontal;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +17,7 @@ public class CharacterAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Horizontal = animator.GetFloat("Horizontal");
+        
         AnimationController();
 
     }
@@ -27,18 +26,26 @@ public class CharacterAnimation : MonoBehaviour
     {
         if(Input.GetKey("d"))
         {
-            Horizontal++;
+            
+            animator.SetFloat("Horizontal",1.0f);
+            animator.SetBool("isWalking",true);
+            animator.SetBool("isForward",true);
+        }
+        if(Input.GetKey("a"))
+        {
+           
+            animator.SetFloat("Horizontal",-1.0f);
             animator.SetBool("isWalking",true);
             animator.SetBool("isForward",true);
         }
         else
         {
-            Horizontal = 0;
+             animator.SetFloat("Horizontal",0f);
             animator.SetBool("isWalking",false);
             animator.SetBool("isForward",false);
         }
 
-        
+
          //isWalking = animator.GetBool("isWalking");
         // animator.SetBool(isWalking,true);
         if(Input.GetKey("w"))

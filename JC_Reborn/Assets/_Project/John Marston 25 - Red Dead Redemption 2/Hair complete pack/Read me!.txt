@@ -1,0 +1,15 @@
+To use the hair styles you need to do the following:
+1-Hide main hair and hair sclap the meshes named sm_24_0_0 and sm_23_0_0
+2-For the head you need to use head diffuse textures that support the different hair styles you can find them in (Head options) folder and they are the following :
+-Custom hair sclap & Clean shaven beard
+-Custom hair sclap & Stubble
+
+Now you need to download xps plugin for blender so you can import the hair styles and you can get it from here: https://www.mediafire.com/folder/76g7rvt4ec661/XPS
+How to install the plugin: https://www.youtube.com/watch?v=tf-pRdu1GE0&ab_channel=Dragonlord720
+
+After importing the fbx model and finishing all the steps
+Click on File  >  import  >  Xnalara/xps  >  Xnalara Model(.ascii/.mesh/.xps)
+Now choose the hair style you need from (Long length) or (Short & medium length) both located at (Hair complete pack) folder
+After importing apply rotation and scale settings like in (Importing settings.png)
+You need to parent the hair skeleton with the body skeleton so you can move the whole body as 1 piece
+p.s: This hair style pack works with arthur morgan model too!

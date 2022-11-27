@@ -24,26 +24,26 @@ public class CharacterAnimation : MonoBehaviour
 
     public void AnimationController()
     {
-        if(Input.GetKey("d"))
-        {
+        // if(Input.GetKey("d"))
+        // {
             
-            animator.SetFloat("Horizontal",1.0f);
-            animator.SetBool("isWalking",true);
-            animator.SetBool("isForward",true);
-        }
-        if(Input.GetKey("a"))
-        {
+        //     animator.SetFloat("Horizontal",1.0f);
+        //     animator.SetBool("isWalking",true);
+        //     animator.SetBool("isForward",true);
+        // }
+        // if(Input.GetKey("a"))
+        // {
            
-            animator.SetFloat("Horizontal",-1.0f);
-            animator.SetBool("isWalking",true);
-            animator.SetBool("isForward",true);
-        }
-        else
-        {
-             animator.SetFloat("Horizontal",0f);
-            animator.SetBool("isWalking",false);
-            animator.SetBool("isForward",false);
-        }
+        //     animator.SetFloat("Horizontal",-1.0f);
+        //     animator.SetBool("isWalking",true);
+        //     animator.SetBool("isForward",true);
+        // }
+        // else
+        // {
+        //      animator.SetFloat("Horizontal",0f);
+        //     animator.SetBool("isWalking",false);
+        //     animator.SetBool("isForward",false);
+        // }
 
 
          //isWalking = animator.GetBool("isWalking");

@@ -10,6 +10,8 @@ public  class CharacterController : MonoBehaviour
     public  float y;
     Vector3 movement;
     public  float moveSpeed;
+    public float Mousex;
+    public float lookSpeed = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,14 @@ public  class CharacterController : MonoBehaviour
        //movement = (moveH,y,moveV);
        //rb.AddForce(movement.x * moveSpeed);
         transform.Translate(moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
+        
+        //Camera Controls
+        Mousex = Input.GetAxis("Mouse X");
+        // Mousey = Input.GetAxis("MouseY");
+
+        transform.Rotate(0,Mousex* -1f  * lookSpeed ,0);
+
+
     }
 
     // public void GamePad()

@@ -35,8 +35,11 @@ public  class CharacterController : MonoBehaviour
 
        if(Input.GetKey(KeyCode.W))
        {  
-            transform.Translate(0,0,moveV * moveSpeed * Time.deltaTime);
-            transform.Rotate(0 ,moveH * moveSpeed ,0);
+             Mousex = Input.GetAxis("Mouse X");
+             transform.Rotate(0,Mousex * lookSpeed ,0);
+
+             transform.Translate(0,0,moveV * moveSpeed * Time.deltaTime);
+            // transform.Rotate(0 ,moveH * moveSpeed ,0);
        }
 
         if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S))

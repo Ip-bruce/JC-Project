@@ -39,8 +39,12 @@ public  class CharacterController : MonoBehaviour
             transform.Rotate(0 ,moveH * moveSpeed ,0);
        }
 
-        transform.Translate( moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
-        transform.Rotate(0 ,moveH * moveSpeed ,0);
+        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S))
+        {
+            transform.Translate( moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
+            transform.Rotate(0 ,moveH * moveSpeed ,0);
+
+        }
 
         //Camera Controls
         Mousex = Input.GetAxis("Mouse X");

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1472.4102, g: 1493.6309, b: 1888.6152, a: 1}
+  m_IndirectSpecularColor: {r: 1376.9346, g: 1305.4531, b: 1353.6973, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -804,7 +804,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17977258}
-  m_LocalRotation: {x: -0.05354317, y: -0.47995716, z: -0.029364131, w: 0.87516403}
+  m_LocalRotation: {x: -0.01985822, y: -0.80909246, z: -0.02738528, w: 0.586707}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -10153,8 +10153,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313401813}
-  m_LocalRotation: {x: -0.053543173, y: -0.47995716, z: -0.029364131, w: 0.875164}
-  m_LocalPosition: {x: -58.17518, y: -14.676, z: 105.16905}
+  m_LocalRotation: {x: -0.01985822, y: -0.80909246, z: -0.027385278, w: 0.586707}
+  m_LocalPosition: {x: -79.00542, y: -16.147655, z: 109.69488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13703,6 +13703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: John Marston 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336177512818411281, guid: 1267c6e82b29d1c47add8ba2fa4525a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1267c6e82b29d1c47add8ba2fa4525a1, type: 3}
@@ -17414,7 +17419,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507545676}
-  m_LocalRotation: {x: -0.022331769, y: -0.4806986, z: -0.012247181, w: 0.8765159}
+  m_LocalRotation: {x: 0.0015247893, y: -0.8095531, z: 0.0021027455, w: 0.587041}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -37494,7 +37499,7 @@ MonoBehaviour:
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -37513,12 +37518,12 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 200
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -37560,7 +37565,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129834317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.17518, y: -14.676, z: 105.16905}
+  m_LocalPosition: {x: -79.00542, y: -16.147655, z: 109.69488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39564,7 +39569,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211031217}
-  m_LocalRotation: {x: -0.075749785, y: -0.47905672, z: -0.041542668, w: 0.8735221}
+  m_LocalRotation: {x: -0.035074275, y: -0.8081095, z: -0.048368823, w: 0.5859943}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -43557,7 +43562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.07, z: -4.43}
+  m_FollowOffset: {x: 0, y: -0.4862901, z: -2.887732}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -61777,7 +61782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.07, z: -4.43}
+  m_FollowOffset: {x: 0, y: -0.4862901, z: -2.887732}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -62543,7 +62548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 0.07, z: -4.43}
+  m_FollowOffset: {x: 0, y: -0.4862901, z: -2.887732}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -62718,8 +62723,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107497989}
   m_LocalRotation: {x: -0, y: -0.4718079, z: -0, w: 0.88170135}
-  m_LocalPosition: {x: -61.91, y: -15.282, z: 107.55}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -83.18, y: -17, z: 108.33}
+  m_LocalScale: {x: 1.4596, y: 1.4596, z: 1.4596}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 286171398}
@@ -62777,6 +62782,7 @@ MonoBehaviour:
   moveSpeed: 5
   Mousex: 0
   lookSpeed: 10
+  jumpSpeed: 25
 --- !u!136 &2107497993
 CapsuleCollider:
   m_ObjectHideFlags: 0

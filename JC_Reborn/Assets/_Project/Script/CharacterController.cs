@@ -12,6 +12,7 @@ public  class CharacterController : MonoBehaviour
     public  float moveSpeed;
     public float Mousex;
     public float lookSpeed = 3f;
+    public float jumpSpeed = 25f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,21 +25,34 @@ public  class CharacterController : MonoBehaviour
     {
         PcController();
     }
+
     public void PcController()
     {
        moveH = Input.GetAxis("Horizontal");
        moveV = Input.GetAxis("Vertical");
        //movement = (moveH,y,moveV);
        //rb.AddForce(movement.x * moveSpeed);
-        transform.Translate(moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
-        
+
+       if(Input.GetKey(KeyCode.W))
+       {  
+            transform.Translate(0,0,moveV * moveSpeed * Time.deltaTime);
+            transform.Rotate(0 ,moveH * moveSpeed ,0);
+       }
+
+        transform.Translate( moveH * moveSpeed * Time.deltaTime,0,moveV * moveSpeed * Time.deltaTime);
+        transform.Rotate(0 ,moveH * moveSpeed ,0);
+
         //Camera Controls
         Mousex = Input.GetAxis("Mouse X");
         // Mousey = Input.GetAxis("MouseY");
 
-        transform.Rotate(0,Mousex* -1f  * lookSpeed ,0);
+       // transform.Rotate(0,Mousex * lookSpeed ,0);
 
-
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddForce(Vector3.up * jumpSpeed);
+            Debug.Log("Jump!!!!!");
+        }
     }
 
     // public void GamePad()
